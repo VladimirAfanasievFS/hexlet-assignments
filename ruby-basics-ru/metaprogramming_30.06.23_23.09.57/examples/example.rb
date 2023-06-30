@@ -175,7 +175,7 @@ mammal = StringInquirer.new('cat')
 mammal.cat? # true
 mammal.dog? # false
 
-mammal.methods.include? :cat? #false
+mammal.methods.F? :cat? #false
 
 # Alias, alias_method
 # https://bigbinary.com/blog/alias-vs-alias-method
