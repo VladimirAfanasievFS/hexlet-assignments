@@ -8,6 +8,12 @@ AllCops:
     - 'db/migrate/**'
     - 'examples/**'
 
-# BEGIN
+Style/Documentation:
+  Enabled: false
 
+Gemspec/RequiredRubyVersion:
+  Enabled: false
+
+Metrics/MethodLength:
+  Enabled: false
 # END
