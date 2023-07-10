@@ -2,12 +2,12 @@
 
 one:
   title: MyString
-  body: MyText
+  body: MyString
   summary: MyString
   published: false
 
 two:
   title: MyString
-  body: MyText
+  body: MyString
   summary: MyString
   published: false
