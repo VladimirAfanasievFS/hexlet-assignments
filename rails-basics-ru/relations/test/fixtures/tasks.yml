@@ -2,12 +2,8 @@
 
 one:
   name: MyString
-  description: MyText
-  user: one
-  status: one
+  description: MyString
 
 two:
   name: MyString
-  description: MyText
-  user: two
-  status: two
+  description: MyString
