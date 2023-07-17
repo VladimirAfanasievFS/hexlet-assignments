@@ -1,9 +1,17 @@
 = content_for :title do
   = @task.name
+p
+  strong.me-2 Description:
+  = @task.description
 
-/ BEGIN
+p
+  strong.me-2 User:
+  = @task.user.name
 
-/ END
+p
+  strong.me-2 Status:
+  = @task.status.name
+
 hr
 
 .d-flex

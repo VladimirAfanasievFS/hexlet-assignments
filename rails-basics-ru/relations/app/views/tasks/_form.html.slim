@@ -1,9 +1,7 @@
 = simple_form_for(task) do |f|
   = f.input :name
   = f.input :description
-  = f.association :user do |a|
-    = a.input :name, label: 'userName'
-  = f.association :status do |a|
-    = a.input :name, label: 'statusName'
+  = f.association :user
+  = f.association :status
 
   = f.button :submit, class: 'btn btn-success mt-4 btn-block'
