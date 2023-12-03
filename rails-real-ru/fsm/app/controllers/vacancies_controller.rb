@@ -23,12 +23,14 @@ class VacanciesController < ApplicationController
   # BEGIN
   def publish
     @vacancy = Vacancy.find(params[:id])
+    @vacancy.publish
     # Implement logic to publish the vacancy
     # redirect_to vacancies_path, notice: 'Vacancy published successfully.'
   end
 
   def archive
     @vacancy = Vacancy.find(params[:id])
+    @vacancy.archive
     # Implement logic to archive the vacancy
     # redirect_to vacancies_path, notice: 'Vacancy archived successfully.'
   end
