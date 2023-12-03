@@ -19,7 +19,7 @@ class Vacancy < ApplicationRecord
     end
 
     event :archive do
-      transitions from: %i[on_moderate publish], to: :archived
+      transitions from: %i[on_moderate published], to: :archived
     end
   end
   # END
