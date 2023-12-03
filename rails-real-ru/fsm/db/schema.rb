@@ -14,7 +14,7 @@ ActiveRecord::Schema[7.1].define(version: 2022_09_19_155610) do
   create_table "vacancies", force: :cascade do |t|
     t.string "title"
     t.string "description"
-    t.string "status"
+    t.string "aasm_state"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end
